@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "platzi-store"
+    }
+  },
+  "defaultProject": "platzi-store",
+  "cli": {
+    "analytics": "c4727a13-3d8e-448c-a464-e859ff6a7658"
+  }
 }
