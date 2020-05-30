@@ -24,6 +24,8 @@ export class ProductComponent implements OnInit, DoCheck, OnDestroy{
     @Output() productClicked: EventEmitter<any> = new EventEmitter();  // eventemitter necesita valor inicial
     // tslint:disable-next-line: no-trailing-whitespace
 
+    today = new Date();
+
     constructor(){
       console.log('1. constructor');
     }

@@ -1,4 +1,6 @@
-<H3>{{ product.title }}</H3>
+<H3>{{ product.title | uppercase }}</H3>
 <img [src]="product.image" alt="">    <!--renderizado de las variables a iterar-->
-<strong>{{ product.price }}</strong>
+<strong>{{ product.price | currency }}</strong>
+<p>{{ product.description | slice:0:20 }}</p>
+<p>{{ today | date: 'HH:mm' }}</p>
 <button (click)="addCart()">Agregar al carrito</button>
