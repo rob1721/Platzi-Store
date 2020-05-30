@@ -1,8 +1,6 @@
 <input type="text" [(ngModel)]="title">
 {{ title }}
 
-<app-product></app-product>
-
 <div [ngSwitch]="title">
   <p *ngSwitchCase="'roberto'">este es roberto</p>
   <p *ngSwitchCase="'christi'">este es christi</p>
@@ -23,10 +21,8 @@
 </ul>
 
 <div *ngFor="let product of products">
-  {{ product.title }}
-  <img [src]="product.image" alt="">
-  {{ product.price }}
-</div>
+  <app-product (productClicked)="clickProduct($event)" [product]="product"></app-product>
+</div>      <!--esto manda la variable iteradora, que es el componente encargado en iterar, recibido por el input-->
 
 
 <!-- router-outlet -->

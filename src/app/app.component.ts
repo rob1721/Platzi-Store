@@ -44,7 +44,7 @@ export class AppComponent {
     },
     {
       id: '5',
-      image: 'assets/images/strickers1.png',
+      image: 'assets/images/stickers1.png',
       title: 'Sticker Platzi',
       price: 790,
       description: 'Este es un sticker1'
@@ -64,5 +64,10 @@ export class AppComponent {
 
   deleteItem(index: number) {
     this.items.splice(index, 1); // splice (posicion , cuantos a eliminar)
+  }
+
+  clickProduct(id: number) {
+    console.log('product ');
+    console.log(id);
   }
 }
