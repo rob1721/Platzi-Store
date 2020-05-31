@@ -1,4 +1,4 @@
-<H3>{{ product.title | uppercase }}</H3>
+<H3 appHighlight>{{ product.title | uppercase }}</H3>
 <img [src]="product.image" alt="">    <!--renderizado de las variables a iterar-->
 <strong>{{ product.price | currency }}</strong>
 <p>{{ product.description | slice:0:20 }}</p>
