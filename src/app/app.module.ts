@@ -13,6 +13,9 @@ import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
 import { DemoComponent } from './demo/demo.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { BannerComponent } from './banner/banner.component';
 
 
 @NgModule({
@@ -26,7 +29,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ProductsComponent,
     ContactComponent,
     DemoComponent,
-    NavbarComponent
+    NavbarComponent,
+    HeaderComponent,
+    FooterComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
