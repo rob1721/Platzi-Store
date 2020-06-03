@@ -55,7 +55,7 @@ export class ProductsComponent implements OnInit {
   ];
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { // por lo general aca de hacen las peticiones http
   }
 
   clickProduct(id: number) {

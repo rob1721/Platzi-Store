@@ -12,6 +12,7 @@ import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { ContactComponent } from './contact/contact.component';
 import { DemoComponent } from './demo/demo.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { DemoComponent } from './demo/demo.component';
     HomeComponent,
     ProductsComponent,
     ContactComponent,
-    DemoComponent
+    DemoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
