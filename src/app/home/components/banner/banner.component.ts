@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class BannerComponent implements OnInit {
 
   images: any[] = [
-    '../../assets/images/banner1.jpg',
-    '../../assets/images/banner2.jpg',
+    '../../assets/images/banner1.png',
+    '../../assets/images/banner2.png',
     '../../assets/images/banner3.png'
   ];
 

@@ -1,0 +1,11 @@
+<nav>
+    <a routerLink="/home" routerLinkActive="active">Home</a>
+    <a routerLink="/products" routerLinkActive="active">Products</a>
+    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+    <!--boton para enviar a otro router-->
+    <button class="btn btn-sm btn-primary" [routerLink]="['/home']" routerLinkActive="active">Home</button>
+    <button class="btn btn-sm btn-primary" [routerLink]="['/products']" routerLinkActive="active">Product</button>
+    <button class="btn btn-sm btn-primary" [routerLink]="['/contact']" routerLinkActive="active">Contact</button>
+    <button class="btn btn-sm btn-primary" [routerLink]="['/demo']" routerLinkActive="active">DEMO</button>
+
+</nav>

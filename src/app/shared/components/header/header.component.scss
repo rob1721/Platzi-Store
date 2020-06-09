@@ -1,0 +1,8 @@
+nav > a { // cualquier elemento
+    padding: 5px;
+    text-decoration: none;
+}
+
+nav > a.active { // cualquier elemento activo
+    background-color: rgb(116, 116, 116);
+}

@@ -1,6 +1,7 @@
 <H3 appHighlight>{{ product.title | uppercase }}</H3>
 <img [src]="product.image" alt="">    <!--renderizado de las variables a iterar-->
 <strong>{{ product.price | currency }}</strong>
-<p>{{ product.description | slice:0:20 }}</p>
+<p>{{ product.description | slice:0:20 }}</p> <!--slice es para decir cuantos caracteres mostra´ra-->
 <p>{{ today | date: 'HH:mm' }}</p>
 <button (click)="addCart()">Agregar al carrito</button>
+<a routerLink="/products/{{ product.id }}">Ver Detalle</a>

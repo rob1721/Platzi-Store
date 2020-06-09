@@ -21,8 +21,8 @@
 
 <ul>
   <li *ngIf="items.length === 0">La lista está vacía</li>
-  <li *ngFor="let item of items; index as ll">
-    {{ item }} {{ ll }}
-    <button (click)="deleteItem(ll)">Delete</button>
+  <li *ngFor="let item of items; index as x">
+    {{ item }} {{ x }}
+    <button (click)="deleteItem(x)">Delete</button>
   </li>
 </ul>
