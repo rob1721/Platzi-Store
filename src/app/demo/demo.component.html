@@ -1,12 +1,12 @@
+<nav class="navbar navbar-dark bg-primary">
+  <span class="navbar-brand mb-0 h1">Trello Frontend</span>
+</nav>
+
 <input type="text" [(ngModel)]="title">
 {{ title }}
 
 <input type="text" [(ngModel)]="power">
 {{ power | exponential }}
-
-<nav class="navbar navbar-light bg-light">
-  <span class="navbar-brand mb-0 h1">Trello Frontend</span>
-</nav>
 
 <div [ngSwitch]="title">
   <p *ngSwitchCase="'roberto'">este es roberto</p>
