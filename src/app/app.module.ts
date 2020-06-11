@@ -13,6 +13,7 @@ import { LayoutComponent } from './layout/layout.component';
 import { SharedModule } from './shared/shared.module';
 import { CoreModule } from './core/core.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarComponent } from './demo/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ContactComponent,
     DemoComponent,
     PageNotFoundComponent,
-    LayoutComponent
+    LayoutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
