@@ -6,12 +6,28 @@
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr); 
+    gap: 50px 20px; // distancia entre productos altura anchura
 }
 
+.container {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+// con esto adaptas el tamaño de la pantalla anal
 @media (min-width: 400px) {
     .product-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    // con esto cuando veamos el producto en el celu, los bordes desaparecen para mayor apreciacion 
+    .container {
+        max-width: 1110px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
 }
 
